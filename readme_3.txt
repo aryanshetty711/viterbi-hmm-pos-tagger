@@ -1,0 +1,2 @@
+Program first categories unknown words based on whether they are adjectives, adverbs, nouns etc. It classified based on a series of suffix values it is made to look out for.
+It then iterates through the training data and totals the number of words as well as the number of hits/matches it finds for POS tags. It then collects different metrics such as the number of unique words and more and utilizes this information to implement the viterbi algorithm and bigram markov model to classify the POS.
